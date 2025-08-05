@@ -15,7 +15,10 @@ nav ul{
 
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(249, 247, 252);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: auto ;
 }
     
     header{
@@ -27,6 +30,19 @@ nav ul li a{
         
     }
 nav a:hover{
-     color: blue;
+     color: rgb(14, 15, 15);
     
+}
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #1d89f5;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    padding: 20px;
 }

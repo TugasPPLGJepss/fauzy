@@ -4,12 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profil Saya</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
 </head>
 <body>
   <header>
     <nav>
+      <div data-aos="flip-left"
+      data-aos="fade-down"
+      data-aos-offset="200"
+      data-aos-delay="300"
+      data-aos-duration="3000"
+      >
       <h1>Moch Fauzy Nugraha</h1>
+    </div>
+
       <ul>
         <li><a href="#">Tentang</a></li>
         <li><a href="#">Keahlian</a></li>
@@ -24,7 +35,9 @@
   <section class="hero">
     <img src="../fauzy.jpeg" >
     <div class="intro">
+<div data-aos="fade-down">
       <h2>Halo, saya Mochammad Fauzy Nugraha</h2>
+</div>
       <p>Perkenalkan saya seorang pengembang web dengan semangat belajar tinggi bangett.</p>
       <a href="#" class="btn">Lihat Proyek Saya</a>
     </div>
@@ -33,6 +46,10 @@
   <p>hallo saya seorang  mahassiswa terbaik di itb taun ini</p>
   
   <section id="skills">
+    <div data-aos="zoom-in-down"
+    data-aos-offset="200"
+    data-aos-delay="300"
+    data-aos-duration="3000">
   <h2>Keahlian </h2>
   <div class="skill-grid">
     <div class="skill">informatika</div>
@@ -40,6 +57,7 @@
     <div class="skill">mobile legends</div>
     <div class="skill">class of class</div>
   </div>
+</div>
 </section>
 
  <h2>Proyek Saya</h2>
@@ -56,22 +74,25 @@
  <section id="contact">
  <h2>kontak saya</h2>
 <div class="social-icons">
- <i class="fa-brands fa-square-instagram fa-2xl" ></i>
-<i class="fa-brands fa-square-facebook fa-2xl" ></i>
-<i class="fa-brands fa-square-whatsapp fa-2xl"></i>
-<i class="fa-brands fa-square-x-twitter fa-2xl" ></i>
-<i class="fa-brands fa-linkedin fa-2xl" ></i>
+ <i class="fa-brands fa-square-instagram fa-2xl" style="color: #bc2121;"></i>
+<i class="fa-brands fa-square-facebook fa-2xl" style="color: #2222a3;"></i>
+<i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #10d43e;"></i>
+<i class="fa-brands fa-square-x-twitter fa-2xl" style="color: #000000;"></i>
+<i class="fa-brands fa-linkedin fa-2xl" style="color: #1265e1;"></i>
+
 </div>
 </section>
 
 <footer>
   <p>&copy; 2049 mochammad fauzy nugraha</p>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
   </body>
   </html>
-  <div></div>
-  
   </section>
 </body>
 </html>

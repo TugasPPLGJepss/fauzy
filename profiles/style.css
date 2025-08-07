@@ -9,6 +9,7 @@ background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(138, 59, 215, 
   padding: 1rem;
 }
 
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -25,7 +26,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(14, 13, 13);
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -40,20 +41,37 @@ nav a:hover {
   align-items: center; 
  background: #b1befa;
 background: radial-gradient(circle, rgba(177, 190, 250, 1) 0%, rgba(6, 48, 199, 1) 100%);
-  color: white;
+  color: rgb(10, 1, 1);
   padding: 40px;
   flex-wrap: wrap;
 }
 
+.hero {
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+
 .hero img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 2px solid rgb(125, 65, 221); 
     margin-bottom: 20px;
     object-fit: cover;
-    margin-right: 15%;
+    margin-right: 50px;
+    animation: melayang 3s ease-in-out infinite;
 }
+
+@keyframes melayang {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
@@ -98,6 +116,15 @@ background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 23
   border-radius: 8px;
 
 }
+.skill {
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+
 
 .container{
    background: #3F5EFB;
@@ -105,6 +132,15 @@ background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(138, 59, 215, 
   padding: 20px;
   border-radius: 8px; 
 }
+.container {
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+
 
 .project-card {
   background: #b1befa;
@@ -134,4 +170,14 @@ background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(138, 59, 215, 
   color: white;
   margin-top: 2rem;
 }
+
+.social-icons {
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+
 

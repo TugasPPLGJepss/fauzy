@@ -9,6 +9,23 @@ background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(138, 59, 215, 
   padding: 1rem;
 }
 
+header{
+  animation: bounce 1.5s infinite;
+}
+@keyframes slidein {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.box {
+  animation: slidein 1s ease-in-out;
+}
+
+
 
 nav {
   display: flex;
@@ -180,4 +197,12 @@ background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(138, 59, 215, 
   50%      { transform: translateY(-8px); }
 }
 
+footer {
+  animation: bounce 1.5s infinite;
+}
 
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+ 

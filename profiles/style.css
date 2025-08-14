@@ -1,11 +1,11 @@
 body {
   margin: 0;
+  
   font-family: sans-serif;
 }
 
 header {
-   background: #3F5EFB;
-background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(138, 59, 215, 1) 39%);
+   background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
   padding: 1rem;
 }
 
@@ -56,9 +56,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center; 
- background: #b1befa;
-background: radial-gradient(circle, rgba(177, 190, 250, 1) 0%, rgba(6, 48, 199, 1) 100%);
-  color: rgb(10, 1, 1);
+ background-image: linear-gradient( 89.5deg,  rgba(51,102,153,1) 6.8%, rgba(102,51,153,1) 100.2% );
   padding: 40px;
   flex-wrap: wrap;
 }
@@ -126,8 +124,7 @@ color: #007bff;
 }
 
 .skill {
-  background: #EEAECA;
-background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
   padding: 1rem;
   text-align: center;
   border-radius: 8px;
@@ -144,8 +141,7 @@ background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 23
 
 
 .container{
-   background: #3F5EFB;
-background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(138, 59, 215, 1) 39%);
+   background-image: linear-gradient( 89.5deg,  rgba(51,102,153,1) 6.8%, rgba(102,51,153,1) 100.2% );
   padding: 20px;
   border-radius: 8px; 
 }
@@ -160,8 +156,7 @@ background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(138, 59, 215, 
 
 
 .project-card {
-  background: #b1befa;
-background: radial-gradient(circle, rgba(177, 190, 250, 1) 0%, rgba(6, 48, 199, 1) 100%);
+  background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
   padding: 1rem;
   border-left: 5px solid #2c2203;
   border-radius: 5px;
@@ -182,9 +177,7 @@ background: radial-gradient(circle, rgba(177, 190, 250, 1) 0%, rgba(6, 48, 199, 
 footer {
   text-align: center;
   padding: 1rem;
-  background: #3F5EFB;
-background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(138, 59, 215, 1) 39%);
-  color: white;
+  background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
   margin-top: 2rem;
 }
 
@@ -206,3 +199,4 @@ footer {
   50%      { transform: translateY(-8px); }
 }
  
+  

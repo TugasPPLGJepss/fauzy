@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  
+
   font-family: sans-serif;
 }
 
@@ -49,7 +49,7 @@ nav ul li a {
 }
 
 nav a:hover {
-  color: #4B0082;
+  color: white;
 }
 
 .hero {
@@ -66,7 +66,7 @@ nav a:hover {
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
+  0%, 100% { transform: translateY(0); } 
   50%      { transform: translateY(-8px); }
 }
 
@@ -74,7 +74,7 @@ nav a:hover {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 2px solid rgb(125, 65, 221); 
+    border: 2px solid rgb(245, 244, 247); 
     margin-bottom: 20px;
     object-fit: cover;
     margin-right: 50px;
@@ -100,36 +100,48 @@ color: #007bff;
   margin-bottom: 20px;
 }
 
-.skills-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
+
+.skills-section {
+    padding: 100px 0;
+    background-color: var(--text-light);
+    margin-bottom: 50px;
 }
 
-.skill-box {
-  background-color: #fff;
-  border: 2px solid #007bff;
-  padding: 15px 25px;
-  border-radius: 8px;
-  color: #007bff;
-  font-weight: bold;
-  box-shadow: 0 2px 5px rgba(95, 2, 201, 0.918);
-  transition: 0.3s;
-}
-.skill-grid {
-  display: grid;
-  gap: 1rem;
-   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+.skills-section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+    color: var(--dark);
 }
 
-.skill {
-  background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
-  padding: 1rem;
-  text-align: center;
-  border-radius: 8px;
-
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
 }
+
+.skill-card {
+    background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
+    border-radius: 15px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(236, 234, 234, 0.849);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(108, 99, 255, 0.1);
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(108, 99, 255, 0.1);
+}
+
+
+.skill-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    color: var(--dark);
+}
+
 .skill {
   animation: bounce 1.5s infinite;
 }

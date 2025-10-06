@@ -1,6 +1,5 @@
 body {
   margin: 0;
-
   font-family: sans-serif;
 }
 
@@ -37,8 +36,6 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 20px;
-  padding: 0;
-  margin: 0;
 }
 
 nav ul li a {

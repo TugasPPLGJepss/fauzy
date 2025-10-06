@@ -1,0 +1,53 @@
+.body{
+margin: 0%;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.logo-yadika-2{
+    display: flex;
+    align-items: center;
+    gap:20px ;
+}
+
+.ul li a{
+    list-style: none;
+}
+
+.logo-yadika-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.logo-yadika-2 ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.logo-yadika-2 li {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-login-2,
+.btn-daftar-2 {
+    margin-left: 10px;
+}
